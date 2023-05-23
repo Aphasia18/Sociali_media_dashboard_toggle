@@ -73,6 +73,7 @@
     &__subtitle {
         font-size: rem(14);
         font-weight: 700;
+        color: var(--text-color2);
     }
 
     &__icon{
@@ -108,14 +109,13 @@
         }
     }
 
-    &__label{
+    &__label {
         font-size: rem(12);
         letter-spacing: rem(5);
         font-weight: 400;
         color: var(--text-color2);
         text-transform: uppercase;
-        
-    }
+      }
 
     &__change{
         display: flex;
@@ -129,10 +129,11 @@
         }
 
         &--down {
-            color: var(-brightred);
+            color: var(--brightred);
         }
         img{
             margin-right: rem(4);
         }
     }
+    
 }
